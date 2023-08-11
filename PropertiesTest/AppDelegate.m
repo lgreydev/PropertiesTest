@@ -20,15 +20,31 @@
     
     SLBoxer* boxer = [[SLBoxer alloc] init];
     
+    /*
     boxer.name = @"Mike";
     boxer.age = 25;
     boxer.height = 1.8f;
     boxer.weight = 80.f;
+    */
+     
+    // Getter and Setter
     
+    [boxer setName:@"Mike"];
+    [boxer setAge:25];
+    [boxer setHeight:1.8f];
+    [boxer setWeight:80.f];
+    
+    NSLog(@"name = %@", [boxer name]);
+    NSLog(@"age = %lu", [boxer age]);
+    NSLog(@"height = %f", [boxer height]);
+    NSLog(@"weight = %f", [boxer weight]);
+    
+    /*
     NSLog(@"name = %@", boxer.name);
     NSLog(@"age = %lu", boxer.age);
     NSLog(@"height = %f", boxer.height);
     NSLog(@"weight = %f", boxer.weight);
+    */
     
     return YES;
 }
