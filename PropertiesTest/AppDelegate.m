@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SLBoxer.h"
 
 @interface AppDelegate ()
 
@@ -17,11 +18,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    SLBoxer* boxer = [[SLBoxer alloc] init];
     
+    boxer.name = @"Mike";
+    boxer.age = 25;
+    boxer.height = 1.8f;
+    boxer.weight = 80.f;
     
-    
-    
-    
+    NSLog(@"name = %@", boxer.name);
+    NSLog(@"age = %lu", boxer.age);
+    NSLog(@"height = %f", boxer.height);
+    NSLog(@"weight = %f", boxer.weight);
     
     return YES;
 }
