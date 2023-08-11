@@ -17,6 +17,8 @@
 }
 
 - (NSString*) name {
+    self.nameCount = self.nameCount + 1;
+    NSLog(@"name getter is called %lu times", self.nameCount);
     return  @"Jon";
 }
 

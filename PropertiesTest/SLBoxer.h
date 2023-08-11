@@ -14,6 +14,8 @@
 @property (assign, nonatomic) CGFloat height;
 @property (assign, nonatomic) CGFloat weight;
 
+@property (assign, nonatomic) NSInteger nameCount;
+
 - (NSInteger) howOldAreYou;
 
 @end
