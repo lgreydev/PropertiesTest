@@ -34,10 +34,15 @@
     [boxer setHeight:1.8f];
     [boxer setWeight:80.f];
     
+    
+    NSLog(@"age = %lu", [boxer howOldAreYou]);
+    
+    /*
     NSLog(@"name = %@", [boxer name]);
     NSLog(@"age = %lu", [boxer age]);
     NSLog(@"height = %f", [boxer height]);
     NSLog(@"weight = %f", [boxer weight]);
+    */
     
     /*
     NSLog(@"name = %@", boxer.name);
