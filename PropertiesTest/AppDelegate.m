@@ -37,12 +37,13 @@
     
     NSLog(@"age = %lu", [boxer howOldAreYou]);
     
-    boxer.nameCount = 0;
+//    boxer.nameCount = 0;
     
     NSLog(@"name = %@", [boxer name]);
     NSLog(@"name = %@", [boxer name]);
-    NSLog(@"name = %@", [boxer name]);
-    NSLog(@"name = %@", [boxer name]);
+ //   NSLog(@"name = %@", [boxer name]);
+//    NSLog(@"name = %@", [boxer name]);
+//    NSLog(@"name = %@", [boxer name]);
     
     /*
     NSLog(@"name = %@", [boxer name]);
