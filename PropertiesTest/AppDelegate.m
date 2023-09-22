@@ -21,6 +21,8 @@
     
     [self testObject];
     
+    self.object = [[SLObject alloc] init];
+    
     NSLog(@"TEST IS OVER");
         
     return YES;
@@ -28,8 +30,9 @@
 
 
 - (void) testObject {
-    SLObject* _ = [[SLObject alloc] init];
-
+    SLObject* obj = [[SLObject alloc] init];
+    
+    self.object = obj;
 }
 
 

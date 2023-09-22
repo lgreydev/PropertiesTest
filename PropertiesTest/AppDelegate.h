@@ -7,8 +7,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class SLObject;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+// strong/weak
+@property (strong, nonatomic, readwrite) SLObject* object;
 
 @end
 

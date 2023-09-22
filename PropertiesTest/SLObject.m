@@ -10,6 +10,15 @@
 @implementation SLObject
 
 
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"object is created");
+    }
+    return self;
+}
+
 - (void) dealloc {
     NSLog(@"object is deallocated");
 }
