@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 #import "SLBoxer.h"
+#import "SLObject.h"
 
 @interface AppDelegate ()
 
@@ -18,49 +19,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    SLBoxer* boxer = [[SLBoxer alloc] init];
+    [self testObject];
     
-    /*
-    boxer.name = @"Mike";
-    boxer.age = 25;
-    boxer.height = 1.8f;
-    boxer.weight = 80.f;
-    */
-     
-    // Getter and Setter
-    
-    [boxer setName:@"Mike"];
-    [boxer setAge:25];
-    [boxer setHeight:1.8f];
-    [boxer setWeight:80.f];
-    
-    
-    NSLog(@"age = %lu", [boxer howOldAreYou]);
-    
-//    boxer.nameCount = 0;
-    
-    NSLog(@"name = %@", [boxer name]);
-    NSLog(@"name = %@", [boxer name]);
- //   NSLog(@"name = %@", [boxer name]);
-//    NSLog(@"name = %@", [boxer name]);
-//    NSLog(@"name = %@", [boxer name]);
-    
-    /*
-    NSLog(@"name = %@", [boxer name]);
-    NSLog(@"age = %lu", [boxer age]);
-    NSLog(@"height = %f", [boxer height]);
-    NSLog(@"weight = %f", [boxer weight]);
-    */
-    
-    /*
-    NSLog(@"name = %@", boxer.name);
-    NSLog(@"age = %lu", boxer.age);
-    NSLog(@"height = %f", boxer.height);
-    NSLog(@"weight = %f", boxer.weight);
-    */
-    
+    NSLog(@"TEST IS OVER");
+        
     return YES;
 }
+
+
+- (void) testObject {
+    SLObject* _ = [[SLObject alloc] init];
+
+}
+
 
 
 #pragma mark - UISceneSession lifecycle

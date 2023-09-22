@@ -15,6 +15,7 @@
 		5E2155B62A86AFA400CAD8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2155B42A86AFA400CAD8D5 /* LaunchScreen.storyboard */; };
 		5E2155B92A86AFA400CAD8D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2155B82A86AFA400CAD8D5 /* main.m */; };
 		5E2155C12A86B02300CAD8D5 /* SLBoxer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2155C02A86B02300CAD8D5 /* SLBoxer.m */; };
+		5EEBFA062ABE47310026B1BD /* SLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEBFA052ABE47310026B1BD /* SLObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		5E2155B82A86AFA400CAD8D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E2155BF2A86B02300CAD8D5 /* SLBoxer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLBoxer.h; sourceTree = "<group>"; };
 		5E2155C02A86B02300CAD8D5 /* SLBoxer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBoxer.m; sourceTree = "<group>"; };
+		5EEBFA042ABE47310026B1BD /* SLObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLObject.h; sourceTree = "<group>"; };
+		5EEBFA052ABE47310026B1BD /* SLObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				5E2155B82A86AFA400CAD8D5 /* main.m */,
 				5E2155BF2A86B02300CAD8D5 /* SLBoxer.h */,
 				5E2155C02A86B02300CAD8D5 /* SLBoxer.m */,
+				5EEBFA042ABE47310026B1BD /* SLObject.h */,
+				5EEBFA052ABE47310026B1BD /* SLObject.m */,
 			);
 			path = PropertiesTest;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E2155C12A86B02300CAD8D5 /* SLBoxer.m in Sources */,
+				5EEBFA062ABE47310026B1BD /* SLObject.m in Sources */,
 				5E2155AE2A86AFA300CAD8D5 /* ViewController.m in Sources */,
 				5E2155A82A86AFA300CAD8D5 /* AppDelegate.m in Sources */,
 				5E2155B92A86AFA400CAD8D5 /* main.m in Sources */,
