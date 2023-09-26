@@ -23,4 +23,8 @@
     NSLog(@"object is deallocated");
 }
 
+- (id)copyWithZone:(nullable NSZone *)zone {
+    return [[SLObject alloc] init];
+}
+
 @end

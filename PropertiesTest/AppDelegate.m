@@ -21,8 +21,6 @@
     
     [self testObject];
     
-    self.object = [[SLObject alloc] init];
-    
     NSLog(@"TEST IS OVER");
         
     return YES;
